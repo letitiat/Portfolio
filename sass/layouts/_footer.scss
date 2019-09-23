@@ -1,0 +1,23 @@
+.footer {
+  background: url("../images/footer-bkg.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 19%;
+  padding-bottom: 3%;
+  z-index: 1;
+  display: block;
+
+  .footer__text {
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+  }
+}

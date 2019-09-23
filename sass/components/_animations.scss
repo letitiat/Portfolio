@@ -1,0 +1,44 @@
+.section-animation {
+  vertical-align: bottom;
+  margin: 0% auto;
+}
+
+.animations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.animation {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  flex-grow: 1;
+flex-shrink: 1;
+ vertical-align: baseline;
+  align-items: center;
+  position: relative;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  max-width: 380px;
+
+  & img {
+    max-width: 200px;
+  }
+
+  &__text {
+    color: $color-grey;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+
+
+
+
+}

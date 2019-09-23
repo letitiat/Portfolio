@@ -1,0 +1,42 @@
+.social {
+margin: 0 auto;
+ width: 70%;
+ max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40%;
+  transition: transform .2s;
+}
+
+.fab {
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-codepen:hover {
+  transform: scale(1.4);
+  color: #212121;
+}
+
+.fa-dribbble:hover {
+  transform: scale(1.4);
+  color: #EA4C89;
+}
+
+.fa-twitter:hover {
+  transform: scale(1.4);
+  color: #33CCFF;
+}
+
+
+.fa-github:hover {
+  transform: scale(1.4);
+  color: #6e5494;
+
+}
+
+.fa-linkedin-in:hover {
+  transform: scale(1.4);
+  color: #4875B4;
+}

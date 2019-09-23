@@ -1,0 +1,85 @@
+.section-projects {
+  padding-bottom: 3rem;
+}
+
+.projects {
+  position: relative;
+}
+
+.project {
+    width: 300px;
+    height: 225px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+
+    &__arrow {
+      font-size: 2rem;
+      position: absolute;
+      top: 197px;
+      left: 140px;
+      color: $color-secondary;
+      text-decoration: none;
+      animation: all .8s ease-out;
+      opacity: 1;
+
+      &:hover {
+        animation: pulse 1.5s infinite;
+      }
+
+      &:active {
+        opacity: 0;
+      }
+
+    }
+
+
+}
+
+.icon_container {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 0;
+  top:0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.icon {
+  height: 45px;
+  width: 35px;
+  box-sizing: content-box;
+  display: flex;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+  margin-right: 13px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+
+  &--blue {
+
+  }
+
+  &--yellow {
+    background-color: $color-secondary;
+  }
+
+  .icon:hover .project {
+    overflow: hidden;
+  }
+
+  & p {
+  margin: auto;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: white;
+  }
+}

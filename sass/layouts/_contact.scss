@@ -1,0 +1,15 @@
+.section-contact {
+  padding-bottom: 18rem;
+}
+
+.contact {
+
+  &__text {
+    font-size: 5rem;
+  }
+
+  &__email {
+      text-decoration: none;
+      color: $color-black;
+    }
+}

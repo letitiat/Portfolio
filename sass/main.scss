@@ -1,0 +1,24 @@
+@import "abstracts/animations";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+
+@import "components/container";
+@import "components/slides";
+@import "components/social";
+@import "components/testimonials";
+@import "components/animations";
+@import "components/projects";
+
+
+@import "layouts/contact";
+@import "layouts/header";
+@import "layouts/navigation";
+@import "layouts/footer";
+@import "layouts/media-queries";
+
+
+@import "pages/home";
