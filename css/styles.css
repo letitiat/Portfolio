@@ -152,7 +152,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   max-width: 2000px;
-  padding-bottom: 2rem; }
+  padding-bottom: 6rem; }
 
 .testimony {
   display: flex;
@@ -205,7 +205,8 @@ body {
 
 .section-animation {
   vertical-align: bottom;
-  margin: 0% auto; }
+  margin: 0% auto;
+  padding-bottom: 3rem; }
 
 .animations {
   display: flex;
@@ -237,7 +238,7 @@ body {
     margin: 0 auto; }
 
 .section-projects {
-  padding-bottom: 3rem; }
+  padding-bottom: 5rem; }
 
 .projects {
   position: relative; }
