@@ -93,6 +93,16 @@ body {
   padding: 5%;
   vertical-align: text-bottom; }
 
+.btn__submit {
+  margin-top: 10px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid #2A90AB;
+  font-size: 2rem;
+  background-color: white;
+  color: #2A90AB; }
+
 #slides {
   position: relative;
   padding: 0px;
@@ -299,20 +309,19 @@ body {
   padding-bottom: 30rem; }
 
 .contact-form {
-  width: 90%;
+  width: 95%;
   max-width: 700px;
   margin: 0 auto;
   font-size: 3rem;
   padding-bottom: 18px; }
-  .contact-form input {
+  .contact-form__input {
     font-size: 3rem;
     color: #2A90AB;
-    border: none; }
-    .contact-form input::placeholder {
+    border: none;
+    width: 100%;
+    margin-bottom: 3px; }
+    .contact-form__input::placeholder {
       color: #FADA95; }
-  .contact-form select {
-    font-size: 3rem;
-    color: #FADA95; }
 
 .header {
   max-width: 60%;

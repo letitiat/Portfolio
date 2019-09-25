@@ -1,0 +1,13 @@
+.btn {
+
+  &__submit {
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid $color-primary-dark;
+    font-size: 2rem;
+    background-color: $color-white;
+    color: $color-primary-dark;
+  }
+}

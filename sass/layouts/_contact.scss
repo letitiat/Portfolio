@@ -3,25 +3,24 @@
 }
 
 .contact-form {
-  width: 90%;
+  width: 95%;
   max-width: 700px;
   margin: 0 auto;
   font-size: 3rem;
   padding-bottom: 18px;
 
-  & input {
+    &__input {
     font-size: 3rem;
     color: $color-primary-dark;
     border: none;
+    width: 100%;
+    margin-bottom: 3px;
 
     &::placeholder {
       color: $color-secondary;
     }
-    }
 
-  & select {
-    font-size: 3rem;
-    color: $color-secondary;
+
   }
 
 }
