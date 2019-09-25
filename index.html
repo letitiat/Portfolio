@@ -149,7 +149,7 @@
           </div>
               </section>
 
-          <section class="section-projects">
+          <!--<section class="section-projects">
             <div class="container">
               <h2 class="heading-secondary u-margin-bottom-big"> My <span class="secondary-highlight">projects</span></h2>
 
@@ -166,11 +166,34 @@
                 </div>
               </div>
             </div>
-          </section>
+          </section>-->
 
 
             <section class="section-contact">
-            <h3 class="heading-secondary contact__text"> Fancy a <a class="contact__email heading-highlight" href="mailto: letitia.tyrrell@hotmail.com"> chat</a>?<h3>
+              <div class="container">
+                <form class = "contact-form">
+                  <div class="contact-form__name"
+                    <label for="name">Hello, my name's </label>
+                    <input type="text" id="name" name="name" placeholder="slim shady">
+                  </div>
+
+                  <div class="contact-form__reason">
+                  <label for="reason">I'd like to chat about </label>
+                       <select id="country" name="country">
+                         <option value="play">play</option>
+                         <option value="work">work</option>
+                       </select>
+                  </div>
+
+                  <div class="contact-form__email">
+                    <label for="email">You can hit me back at </label>
+                    <input type="email" id="email" name="email" placeholder="slimshade@eminem.com">
+                  </div>
+
+                  <input type="submit" value="Submit">
+
+                </form>
+              </div>
             </section>
 
             <footer class="footer">

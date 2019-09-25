@@ -10,12 +10,15 @@
    font-size: 62.5%;
  }
 
- body {
+ body, input, textarea, select {
      font-family: 'bebas', sans-serif;
      text-transform: uppercase;
-     max-width: 100%;
-     position: relative;
-     min-height: 100vh;
      -webkit-font-smoothing: antialiased;
      font-weight: normal;
+ }
+
+ body {
+   max-width: 100%;
+   position: relative;
+   min-height: 100vh;
  }

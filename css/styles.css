@@ -16,14 +16,16 @@
 html {
   font-size: 62.5%; }
 
-body {
+body, input, textarea, select {
   font-family: 'bebas', sans-serif;
   text-transform: uppercase;
-  max-width: 100%;
-  position: relative;
-  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   font-weight: normal; }
+
+body {
+  max-width: 100%;
+  position: relative;
+  min-height: 100vh; }
 
 @font-face {
   font-family: 'bebas';
@@ -294,14 +296,23 @@ body {
     color: white; }
 
 .section-contact {
-  padding-bottom: 18rem; }
+  padding-bottom: 30rem; }
 
-.contact__text {
-  font-size: 5rem; }
-
-.contact__email {
-  text-decoration: none;
-  color: black; }
+.contact-form {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 3rem;
+  padding-bottom: 18px; }
+  .contact-form input {
+    font-size: 3rem;
+    color: #2A90AB;
+    border: none; }
+    .contact-form input::placeholder {
+      color: #FADA95; }
+  .contact-form select {
+    font-size: 3rem;
+    color: #FADA95; }
 
 .header {
   max-width: 60%;

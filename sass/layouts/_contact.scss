@@ -1,15 +1,27 @@
 .section-contact {
-  padding-bottom: 18rem;
+  padding-bottom: 30rem;
 }
 
-.contact {
+.contact-form {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 3rem;
+  padding-bottom: 18px;
 
-  &__text {
-    font-size: 5rem;
+  & input {
+    font-size: 3rem;
+    color: $color-primary-dark;
+    border: none;
+
+    &::placeholder {
+      color: $color-secondary;
+    }
+    }
+
+  & select {
+    font-size: 3rem;
+    color: $color-secondary;
   }
 
-  &__email {
-      text-decoration: none;
-      color: $color-black;
-    }
 }
