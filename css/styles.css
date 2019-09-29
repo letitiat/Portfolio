@@ -341,15 +341,18 @@ body {
   .contact-form p {
     margin-bottom: 5px; }
   .contact-form__input {
+    background-color: rgba(255, 255, 255, 0);
     font-size: 2.6rem;
-    color: #FADA95;
-    border: none;
-    border-radius: 10;
     padding: 5px;
+    color: #2A90AB;
+    border-radius: 10;
     width: 100%;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    border: none; }
+    .contact-form__input:focus {
+      border: 2px solid #FADA95; }
     .contact-form__input::placeholder {
-      color: #2A90AB; }
+      color: #FADA95; }
 
 .footer {
   padding: 2rem 4rem;
