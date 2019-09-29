@@ -152,26 +152,21 @@ body {
       font-size: 2.5rem;
       color: white;
       text-decoration: none; }
-
-.fa-codepen:hover {
-  transform: scale(1.4);
-  color: #212121; }
-
-.fa-dribbble:hover {
-  transform: scale(1.4);
-  color: #EA4C89; }
-
-.fa-twitter:hover {
-  transform: scale(1.4);
-  color: #33CCFF; }
-
-.fa-github:hover {
-  transform: scale(1.4);
-  color: #6e5494; }
-
-.fa-linkedin-in:hover {
-  transform: scale(1.4);
-  color: #4875B4; }
+  .social .fa-codepen:hover {
+    transform: scale(1.4);
+    color: #212121; }
+  .social .fa-dribbble:hover {
+    transform: scale(1.4);
+    color: #EA4C89; }
+  .social .fa-twitter:hover {
+    transform: scale(1.4);
+    color: #33CCFF; }
+  .social .fa-github:hover {
+    transform: scale(1.4);
+    color: #6e5494; }
+  .social .fa-linkedin-in:hover {
+    transform: scale(1.4);
+    color: #4875B4; }
 
 .section-testimonials::after {
   content: "";
@@ -465,7 +460,6 @@ body {
   transform: rotate(-450deg) translateX(-0.8rem); }
 
 .section-intro {
-  padding-top: 5rem;
   top: 2px;
   padding-bottom: 10rem;
   position: relative; }

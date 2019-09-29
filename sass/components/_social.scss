@@ -28,33 +28,32 @@
       text-decoration: none;
     }
   }
-}
+
+  .fa-codepen:hover {
+    transform: scale(1.4);
+    color: #212121;
+  }
+
+  .fa-dribbble:hover {
+    transform: scale(1.4);
+    color: #EA4C89;
+  }
+
+  .fa-twitter:hover {
+    transform: scale(1.4);
+    color: #33CCFF;
+  }
 
 
+  .fa-github:hover {
+    transform: scale(1.4);
+    color: #6e5494;
 
-.fa-codepen:hover {
-  transform: scale(1.4);
-  color: #212121;
-}
+  }
 
-.fa-dribbble:hover {
-  transform: scale(1.4);
-  color: #EA4C89;
-}
+  .fa-linkedin-in:hover {
+    transform: scale(1.4);
+    color: #4875B4;
+  }
 
-.fa-twitter:hover {
-  transform: scale(1.4);
-  color: #33CCFF;
-}
-
-
-.fa-github:hover {
-  transform: scale(1.4);
-  color: #6e5494;
-
-}
-
-.fa-linkedin-in:hover {
-  transform: scale(1.4);
-  color: #4875B4;
 }
