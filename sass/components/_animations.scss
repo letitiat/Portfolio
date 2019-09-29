@@ -1,8 +1,4 @@
-.section-animation {
-  vertical-align: bottom;
-  margin: 0% auto;
-  padding-bottom: 3rem;
-}
+
 
 .animations {
   display: flex;
@@ -10,6 +6,7 @@
   flex-wrap: wrap;
   max-width: 2000px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .animation {
@@ -24,7 +21,7 @@ flex-shrink: 1;
   position: relative;
   padding: 1rem 3rem;
   box-sizing: border-box;
-  max-width: 380px;
+  max-width: 300px;
 
   & img {
     max-width: 200px;

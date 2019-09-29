@@ -3,11 +3,15 @@
 }
 
 .contact-form {
-  color: $color-black;
+  color: $color-white;
   width: 95%;
-  max-width: 600px;
+  max-width: 700px;
   font-size: 2.6em;
   padding-bottom: 3rem;
+
+  & p {
+    margin-bottom: 5px;
+  }
 
     &__input {
     font-size: 2.6rem;
@@ -16,7 +20,7 @@
     border-radius: 10;
     padding: 5px;
     width: 100%;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 
     &::placeholder {
       color: $color-primary-dark;

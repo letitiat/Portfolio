@@ -6,13 +6,14 @@
   &__content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   &__contact {
     flex-grow: 1;
     flex-shrink: 1;
     width: 100%;
+    flex-basis: 45%;
     max-width: 600px;
   }
 
@@ -21,7 +22,7 @@
     flex-shrink: 1;
     width: 100%;
     max-width: 600px;
-
+    flex-basis: 45%;
   }
 
   &__hr {
@@ -29,7 +30,7 @@
     width: 100%;
   }
 
-  p {
+  &__credit {
     color: $color-white;
     font-size: 1.2rem;
     text-align: center;

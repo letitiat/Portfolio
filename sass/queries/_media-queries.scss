@@ -1,0 +1,226 @@
+@media only screen and (min-width: 685px) {
+
+.testimonials {
+  padding-bottom: 15rem;
+}
+
+  .heading-footer {
+      font-size: 4em;
+      margin-bottom: 4rem;
+  }
+
+  .footer {
+    padding: 4rem 5rem 2rem 5rem;
+
+    &__contact {
+      padding-right: 15px;
+    }
+
+
+    &__hr {
+      width: auto;
+    }
+
+    &__credit {
+      font-size: 1.5rem;
+      padding-top: 2rem;
+    }
+
+  }
+
+  .social {
+
+    &__main {
+      .fab {
+        font-size: 4rem;
+
+      }
+    }
+
+    &__footer {
+      display: flex;
+      justify-content: space-around;
+
+      .fab {
+        font-size: 2rem;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  //CONTACT FORM
+  .contact-form {
+    font-size: 2em;
+
+      &__input {
+      font-size: 2rem;
+      margin-bottom: 10px;
+
+    }
+
+  }
+
+
+  }
+
+
+
+
+@media only screen and (min-width: 1000px) {
+
+  .menu-toggler{
+    width: 5rem;
+    height: 4rem;
+    top: 5rem;
+    right: 5rem;
+  }
+
+  .bar{
+    height: 7px;
+  }
+
+.heading-primary {
+  font-size: 15rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.slide {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+  }
+
+.container--intro {
+  padding-bottom: 15%;
+}
+  .section-intro {
+    padding-top: 10rem;
+ }
+
+ .container--about {
+   padding-top: 0%;
+ }
+
+
+  .about__text {
+    padding: 0% 0 5% 0;
+    margin: 0 auto;
+    text-align: center;
+
+    & p {
+      font-size: 3.5rem;
+      text-align: center;
+      padding-bottom: 5rem;
+    }
+  }
+
+
+
+.intro__text {
+  padding-bottom: 3rem;
+}
+
+.heading-secondary {
+  font-size: 7rem;
+}
+
+.heading-tertiary {
+  font-size: 4rem;
+}
+
+.animation__text {
+  p {
+    font-size: 2.3rem;
+  }
+}
+
+//TESTIMONIALS
+
+.testimony {
+  margin: 2em 2em;
+}
+
+.section-testimonials {
+  padding-bottom: 20rem;
+}
+
+
+//FOOTER
+
+.heading-footer {
+    font-size: 7em;
+    margin-bottom: 4rem;
+}
+
+.footer {
+  padding: 8rem 10rem 5rem 10rem;
+
+  &__contact {
+    padding-right: 15px;
+  }
+
+
+  &__hr {
+    width: auto;
+  }
+
+  &__credit {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+}
+
+.social {
+
+  &__main {
+    .fab {
+      font-size: 4rem;
+
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-around;
+
+    .fab {
+      font-size: 4rem;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+//CONTACT FORM
+.contact-form {
+  font-size: 4em;
+
+    &__input {
+    font-size: 4rem;
+    margin-bottom: 10px;
+
+  }
+
+}
+
+.btn {
+
+  &__submit {
+    margin: 25px auto auto auto;
+    height: 70px;
+    width: 190px;
+    font-size: 4rem;
+  }
+}
+
+}
