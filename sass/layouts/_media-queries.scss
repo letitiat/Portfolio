@@ -12,7 +12,7 @@
   }
 
 .heading-primary {
-  font-size: 20rem;
+  font-size: 15rem;
   text-align: center;
   margin: 0 auto;
 }
@@ -65,7 +65,7 @@ z-index: -1;
     text-align: center;
 
     & p {
-      font-size: 4rem;
+      font-size: 3rem;
       text-align: center;
       padding-bottom: 5rem;
     }
@@ -109,14 +109,29 @@ z-index: -1;
 }
 
 .footer {
-  background: url("../images/background-bottom.svg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  padding: 10rem 12rem;
+
+
+  &__content {
+  }
+
+  &__contact {
+  }
+
+  &__text {
+
+  }
+
+  &__hr {
+    width: auto;
+  }
+
+  p {
+    font-size: 1.2rem;
+    padding-top: 2.5rem;
+  }
+
 }
 
-.footer__text {
-  font-size: 2.4rem;
-}
 
 }

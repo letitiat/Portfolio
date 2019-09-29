@@ -1,18 +1,36 @@
 .social {
-margin: 0 auto;
- width: 70%;
  max-width: 600px;
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 40%;
   transition: transform .2s;
+
+  &__main {
+    margin: 0 auto;
+    padding-bottom: 40%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+
+    .fab {
+      font-size: 3rem;
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-around;
+
+    .fab {
+      font-size: 2.5rem;
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
 
-.fab {
-  font-size: 3rem;
-  color: white;
-  text-decoration: none;
-}
+
 
 .fa-codepen:hover {
   transform: scale(1.4);
