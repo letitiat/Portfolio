@@ -154,26 +154,30 @@
             <div class="footer__content">
             <div class="footer__contact" id="contact">
               <h2 class="heading-footer u-margin-bottom-medium u-margin-top-medium"> Fancy a <span class="secondary-highlight">chat?</span></h2>
+
+
               <form class = "contact-form" method="post" action="php/contactform.php">
+
                 <div class="contact-form__name"
                   <label for="name"><p>Hello, my name's </p></label>
-                  <input class="contact-form__input" type="text" id="name" name="name" placeholder="slim shady" required>
+                  <input class="contact-form__input" type="text" id="name" name="name" placeholder="slim shady">
                 </div>
 
                 <div class="contact-form__reason">
                 <label for="reason"><p>I'd like to chat about </p></label>
-                <input class="contact-form__input" type="text" id="reason" name="reason" placeholder="nothing in particular." required>
-
+                <textarea class="contact-form__input" tabindex="4" type="text" rows="3" id="reason" name="reason" placeholder="nothing in particular, really. Or maybe you've got a secret mission? Wanna grab a cuppa? Hit me up."></textarea>
                 </div>
 
                 <div class="contact-form__email">
                   <label for="email"><p>You can hit me back at </p></label>
-                  <input class="contact-form__input" type="email" id="mail" name="mail" placeholder="contactme@please.com" required>
+                  <input class="contact-form__input" type="text" id="mail" name="mail" placeholder="contactme@please.com">
                 </div>
 
                 <input class="btn__submit" type="submit" value="Submit">
 
               </form>
+
+
             </div>
             <hr class="footer__hr">
             <div class="footer__text">

@@ -1,5 +1,4 @@
 <?php
-
 if (isset($_POST['submit'])) {
   $name = $_POST['name'];
   $reason = $_POST['reason'];
@@ -13,5 +12,4 @@ if (isset($_POST['submit'])) {
   header("Location: index.php?mailsent");
 
 }
-
  ?>
